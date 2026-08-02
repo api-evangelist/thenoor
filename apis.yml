@@ -1,19 +1,45 @@
 aid: thenoor
 name: TheNoor
-description: TheNoor is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  TheNoor is a Shariah-inspired and guided company behind "TheNoor" — an Islamic
+  lifestyle mobile application for Muslims, available on iOS and Android. The app
+  bundles daily religious and lifestyle utilities such as prayer times, Qibla
+  direction, Quran, Islamic calendar, and related community and content features
+  into a single consumer product. TheNoor is a 500 Global portfolio company. As
+  of this enrichment pass the company exposes only a consumer website and a
+  private mobile backend at api.thenoor.co; it publishes no public developer API,
+  OpenAPI definition, SDKs, developer portal, or API documentation.
 url: https://raw.githubusercontent.com/api-evangelist/thenoor/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://thenoor.co/assets/images/thenoor-meta-images.jpg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - 500-global
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: consumer-app-no-public-api
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Islamic
+- Muslim
+- Lifestyle App
+- Mobile App
+- Prayer Times
+- Quran
+- Consumer App
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +49,20 @@ maintainers:
 common:
 - type: Website
   url: https://thenoor.co
+- type: Blog
+  url: https://thenoor.co/en/blog
+- type: TermsOfService
+  url: https://thenoor.co/en/terms-policy
+- type: Support
+  url: https://thenoor.co/en/contact
+- type: AppStore
+  url: https://apps.apple.com/my/app/thenoor/id1543140251
+- type: GooglePlay
+  url: https://play.google.com/store/apps/details?id=com.thenoor.app
+- type: DomainSecurity
+  url: security/thenoor-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
