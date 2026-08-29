@@ -10,6 +10,17 @@ description: >-
   private mobile backend at api.thenoor.co; it publishes no public developer API,
   OpenAPI definition, SDKs, developer portal, or API documentation.
 url: https://raw.githubusercontent.com/api-evangelist/thenoor/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
